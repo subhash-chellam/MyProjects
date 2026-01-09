@@ -1,0 +1,62 @@
+23:09:14.141 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+23:09:14.681 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+23:09:17.139 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+23:09:17.139 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+23:09:17.149 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+23:09:17.149 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+23:09:17.854 [gatling-1-1] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:18.173 [gatling-1-2] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:19.169 [gatling-1-3] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:20.210 [gatling-1-4] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:21.177 [gatling-1-5] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:22.169 [gatling-1-6] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:23.175 [gatling-1-7] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:24.165 [gatling-1-8] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:24.676 [gatling-1-9] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:25.172 [gatling-1-10] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:26.166 [gatling-1-11] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:27.176 [gatling-1-12] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:27.683 [gatling-1-13] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:28.179 [gatling-1-14] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:29.174 [gatling-1-15] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:30.177 [gatling-1-16] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:30.665 [gatling-1-17] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:31.164 [gatling-1-18] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:32.174 [gatling-1-19] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:32.667 [gatling-1-20] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:33.176 [gatling-1-21] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:34.173 [gatling-1-22] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:34.665 [gatling-1-23] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:35.171 [gatling-1-24] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:35.665 [gatling-1-1] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:36.177 [gatling-1-2] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:37.168 [gatling-1-3] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:37.674 [gatling-1-4] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:38.199 [gatling-1-5] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:38.675 [gatling-1-6] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:39.170 [gatling-1-7] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:40.165 [gatling-1-8] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:40.664 [gatling-1-9] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:41.171 [gatling-1-10] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:41.671 [gatling-1-11] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:42.166 [gatling-1-12] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:42.667 [gatling-1-13] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:43.163 [gatling-1-14] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:43.674 [gatling-1-15] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:44.174 [gatling-1-16] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:44.669 [gatling-1-17] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:45.175 [gatling-1-18] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:45.672 [gatling-1-19] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:46.173 [gatling-1-20] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:46.176 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  i.g.c.c.inject.open.OpenWorkload - Scenario io.gatling.core.scenario.Scenario@66f25e2a has finished injecting
+23:09:46.192 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  i.g.core.controller.inject.Injector - All scenarios have finished injecting
+23:09:46.671 [gatling-1-21] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+23:09:46.682 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  i.g.core.controller.inject.Injector - All users of scenario Test API with CSV data are stopped
+23:09:46.687 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  i.g.core.controller.inject.Injector - Stopping
+23:09:46.692 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+23:09:46.828 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+23:09:46.891 [main] INFO  i.g.charts.stats.LogFileReader$ - Collected List(C:\MyWorks\APIPerformance\target\gatling\csvsimulation-20240703173917064\simulation.log) from csvsimulation-20240703173917064
+23:09:46.922 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+23:09:46.940 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 91 lines
+23:09:46.985 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+23:09:47.001 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 91 lines
