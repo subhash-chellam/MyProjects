@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../selenium-test"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.compile.nullAnalysis.mode": "automatic"
+	}
+}
