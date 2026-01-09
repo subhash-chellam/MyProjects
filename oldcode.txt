@@ -1,0 +1,89 @@
+		And form field launch_url = "https://cs3n-staging.contentservice.net/launch_lti?manifest=manifest/rqi_provider_2025_aha_moc_entry_test&launch_as=learner"
+		And form field oauth_consumer_key = "4f468578-8ca8-44bb-8aa1-fd513881884a|4p3z7-hdtgb-8r2sq"
+		And form field oauth_consumer_secret = "a58f91e412b311e1"
+		And form field custom_org_unit_id = "26550"
+		And form field custom_organization_id = "2000984"
+		And form field custom_organization_name = "Test_PI7.3_systemteam_Cachetest_Dontuse_MohanR"
+		And form field XXcustom_institution_id = "17"
+		And form field XXcustom_institution_name = "Inst 17"
+		And form field XXcustom_department_id = "17"
+		And form field XXcustom_department_name = "Dept 17"
+		And form field context_id = "group10"
+		And form field context_type = "group"
+		And form field context_name = "Group 10"
+		And form field resource_link_id = "13028858"
+		And form field lis_result_sourcedid = "13028858"
+		And form field custom_profile_user = "1"
+		And form field custom_org_id = "2000984"
+		And form field custom_org_name = "Test_PI7.3_systemteam_Cachetest_Dontuse_MohanR"
+		And form field user_id = "10176430"
+		And form field xxxvendor_sharable_id = "337"
+		And form field lis_person_name_family = "Test-93651582"
+		And form field lis_person_name_full = "Test-93651582"
+		And form field lis_person_name_given = "Test-93651582"
+		And form field lis_person_contact_email_primary = "Test-93651582@contentservice.net"
+		And form field custom_job_title_id = "jobtitle1"
+		And form field custom_job_title_name = "test job titl"
+		And form field custom_job_category_id = "jobcategory1"
+		And form field custom_job_category_name = "Job Category 1"
+		And form field custom_lis_person_timezone = "CET"
+		And form field xxxlaunch_lang = "ja-JP"
+		And form field xxxinternational_course = "1"
+		And form field lis_outcome_service_url = "http://localhost/test.php"
+		And form field launch_presentation_css_url = "http://localhost.php"
+		And form field launch_presentation_locale = "ja-JP"
+		And form field tool_consumer_instance_guid = "cdp-exemplar-qa-maurya"
+		And form field tool_consumer_info_product_family_code = "launch-lti-html-local"
+		And form field lis_outcome_format = "JSON"
+		And form field custom_return_format = "JSON"
+		
+		
+		
+		
+		
+		* def kittens = read('resources/ParameterTemplate.json')
+* def created = $kittens[*].data
+
+
+
+		
+		
+			  @PerformLtiLauchwithparam
+ 		Scenario: Generate lti lauch payload and lauch course with payload parameter
+    Given path 'generate-lti-body'
+    And header Content-Type = 'application/x-www-form-urlencoded'
+    * def payload = param
+		* form fields payload
+ 		When method POST
+		Then status 200
+		Then print response
+		* def GeneratedBody = response
+		Given url 'https://cs3n-staging.contentservice.net/launch_lti?manifest=manifest/rqi_provider_2025_aha_moc_entry_test&launch_as=learner'
+		And header Content-Type = 'application/x-www-form-urlencoded'
+		* def LaunchPayload = GeneratedBody
+		* form fields LaunchPayload
+		Then print LaunchPayload
+		When method POST
+		Then status 200
+		Then print 'response with param', response
+		
+		
+		
+		  @PerformLtiLauch
+  Scenario: Generate lti lauch payload and lauch course with payload
+    Given path 'generate-lti-body'
+    And header Content-Type = 'application/x-www-form-urlencoded'
+		*	def payload = read('resources/Template.json')
+		* form fields payload
+ 		When method POST
+		Then status 200
+		Then print response
+		* def GeneratedBody = response
+		Given url 'https://cs3n-staging.contentservice.net/launch_lti?manifest=manifest/rqi_provider_2025_aha_moc_entry_test&launch_as=learner'
+		And header Content-Type = 'application/x-www-form-urlencoded'
+		* def LaunchPayload = GeneratedBody
+		* form fields LaunchPayload
+		Then print LaunchPayload
+		When method POST
+		Then status 200
+		Then print 'respons', response
